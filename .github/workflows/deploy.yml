@@ -18,6 +18,6 @@ jobs:
           passphrase: ${{ secrets.DEPLOY_PATH }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            cd /home/naihiko560/naohikoblog.com/public_html/app-test.naohikoblog.com
+            cd /home/sv8495/naohikoblog.com/public_html/app-test.naohikoblog.com/
             git checkout main
             git pull origin main
